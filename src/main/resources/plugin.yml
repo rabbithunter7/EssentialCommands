@@ -1,0 +1,27 @@
+name: EssentialCommands
+version: ${project.version}
+main: com.essentialcommands.EssentialCommands
+api-version: 1.20
+description: Essential commands for a small server
+commands:
+  fly:
+    description: Toggle flight
+    usage: /fly
+  kiss:
+    description: Blow kiss
+    usage: /kiss <player>
+  cry:
+    description: Cry like a baby
+    usage: /cry
+  comfort:
+    description: Comfort another person
+    usage: /comfort
+  enderchest:
+    description: Open enderchest
+    usage: /enderchest
+  backpack:
+    description: Open backpack
+    usage: /backpack
+  trash:
+    description: Open trash
+    usage: /trash
