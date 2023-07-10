@@ -17,10 +17,12 @@ public class FlyCommand implements CommandExecutor {
             // Set the player's flight permissions
             if (((Player) sender).getAllowFlight()==true) { // Check if flight is true
                 ((Player) sender).setAllowFlight(false); // If so, set it to false
+                System.out.println(player.getName() + " has toggled fly OFF!");
                 player.sendMessage("Flight toggled OFF!");
             }
             else {
                 ((Player) sender).setAllowFlight(true); // otherwise, set it to true
+                System.out.println(player.getName() + " has toggled fly ON!");
                 player.sendMessage("Flight toggled ON!");
             }
         }
