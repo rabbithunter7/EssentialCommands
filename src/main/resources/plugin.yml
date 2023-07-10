@@ -19,9 +19,6 @@ commands:
   enderchest:
     description: Open enderchest
     usage: /enderchest
-  backpack:
-    description: Open backpack
-    usage: /backpack
   trash:
     description: Open trash
     usage: /trash
