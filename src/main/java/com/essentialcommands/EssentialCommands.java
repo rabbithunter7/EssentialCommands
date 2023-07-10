@@ -1,7 +1,6 @@
 package com.essentialcommands;
 
 import com.essentialcommands.commands.essential.FlyCommand;
-import com.essentialcommands.commands.inventory.BackpackCommand;
 import com.essentialcommands.commands.inventory.EnderchestCommand;
 import com.essentialcommands.commands.inventory.TrashBinCommand;
 import com.essentialcommands.commands.rp.ComfortCommand;
@@ -24,7 +23,6 @@ public final class EssentialCommands extends JavaPlugin {
         this.getCommand("cry").setExecutor(new CryCommand());
         this.getCommand("comfort").setExecutor(new ComfortCommand());
         this.getCommand("enderchest").setExecutor(new EnderchestCommand());
-        this.getCommand("backpack").setExecutor(new BackpackCommand());
         this.getCommand("trash").setExecutor(new TrashBinCommand());
 
         // Register Listeners
